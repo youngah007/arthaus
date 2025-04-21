@@ -175,7 +175,7 @@ struct HomeView: View {
             .sheet(isPresented: $showingEditHausSheet) {
                 NavigationStack {
                     VStack(spacing: 20) {
-                        Text("Whoopsie, made a oopsie!")
+                        Text("Whoopsie, made an oopsie!")
                             .font(.custom("Didot", size: 20))
                             .frame(width: 250)
                             .bold()
